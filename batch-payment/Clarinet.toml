@@ -1,0 +1,11 @@
+[project]
+name = "batch-payment"
+authors = []
+description = ""
+telemetry = true
+requirements = []
+analysis = ["check_checker"]
+costs_version = 2
+[contracts.batch-transfer]
+path = "contracts/batch-transfer.clar"
+depends_on = []
